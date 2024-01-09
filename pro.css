@@ -1,0 +1,351 @@
+/* global */
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+p {
+    color: green;
+}
+/* naviagation */
+.navigation{
+    background-color: rgb(9, 124, 9);
+    /* background-color: antiquewhite; */
+    text-align: center;
+    font-display: 50px;
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    
+}
+.btn{
+    padding: 8px 20px;
+    width: 200px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 233, 135);
+    font-weight: 700;
+    /* border-radius: 0; */
+    text-transform: uppercase;
+    margin: 25px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+   }
+   .btn:hover{
+    background: transparent;
+    box-shadow: 0 0 40px 25px #e0e0d9;
+    color: #e0e0d9;
+   }
+
+   .links >  li {
+    display: inline-block;
+    margin: 2px 5px 5px 2px;
+    width: 25%;
+
+}
+/* body */
+
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+h4 {
+    text-align: center;
+    color: rgb(244, 244, 244);
+
+}
+h5, #three_rows  {
+    color: green;
+}
+#col_picka{
+    background-color: rgb(22, 38, 23);
+    border-radius: 50px;
+    
+}
+
+#pickaIMG {
+   max-width: 450px;
+   border-radius: 50% 20% / 10% 40%;
+}
+
+/* section 2 */
+#three_rows{
+    padding-top: 150px;
+}
+
+/* section 3 */
+.featured {
+    text-align: center;
+}
+.featured > img {
+    width: 600px;
+}
+.featured > p {
+    background-color: rgba(0, 0, 0, 0.669);
+    opacity: 75%;
+    z-index: 1;
+    width: 50%;
+    left: 200px;
+    bottom: 80px;
+    /* top: 50px; */
+    position: relative;
+    border-radius: 10%;
+}
+/* footer */
+
+.foot {
+    width: 100%;
+    position: sticky;
+    text-align: center;
+
+}
+
+#footer {
+    background-color: rgb(100, 242, 61);
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+
+}
+#footer > li {
+    display: inline-block;
+    text-indent: 20px;
+    margin: 1px 45px 1px 45px;
+}
+
+
+
+/* //////////////////////////////////////////////// */
+/* other screen sizes */
+@media only screen and (max-width:280px) {
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+    .navigation{
+        background-color: rgb(9, 124, 9);
+        width: 115%;   
+    }
+    .btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 233, 135);
+    font-weight: 700;
+    text-decoration: none;
+   }
+   .btn:hover{
+    background: transparent;
+    box-shadow: 0 0 40px 25px #e0e0d9;
+    color: #e0e0d9;
+   }
+   .links >  li {
+    display: block;
+    padding: none;
+   
+    }
+    ul  .links {
+        padding-left: 15px;
+    }
+    
+/* section 2 */
+#col_picka{
+    background-color: rgb(22, 38, 23);
+    border-radius: 50px;
+    
+}
+
+#pickaIMG {
+   max-width: 250px;
+   border-radius: 50% 20% / 10% 40%;
+}
+/* section 3 */
+.featured {
+    text-align: center;
+}
+.featured > img {
+    width: 250px;
+}
+.featured > p {
+    background-color: rgba(0, 0, 0, 0.669);
+    opacity: 75%;
+    z-index: 1;
+    width: 50%;
+    left: 100px;
+    bottom: 80px;
+    /* top: 50px; */
+    position: relative;
+    border-radius: 10%;
+}
+.footer{
+    width: 115%;   
+
+}
+}
+
+
+/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////// */
+
+/* break points */
+
+@media only screen and (min-width:281px) and (max-width:480px) {
+    html{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .navigation{
+        background-color: rgb(9, 124, 9);
+        width: 100%;   
+    }
+    .btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 233, 135);
+    font-weight: 700;
+    /* border-radius: 0; */
+    text-decoration: none;
+   }
+   .btn:hover{
+    background: transparent;
+    box-shadow: 0 0 40px 25px #e0e0d9;
+    color: #e0e0d9;
+   }
+   .links >  li {
+    display: block;
+    padding-left: 50px;
+   
+    }
+    ul > .links {
+        padding-left: 75px;
+    }
+    
+/* section 2 */
+#col_picka{
+    background-color: rgb(22, 38, 23);
+    border-radius: 50px;
+    
+}
+div > #col_picka.col {
+    height: 300px;
+}
+
+
+#pickaIMG {
+   max-width: 250px;
+   border-radius: 50% 20% / 10% 40%;
+}
+/* section 3 */
+.featured {
+    text-align: center;
+}
+.featured > img {
+    width: 250px;
+}
+.featured > p {
+    background-color: rgba(0, 0, 0, 0.669);
+    opacity: 75%;
+    z-index: 1;
+    width: 50%;
+    left: 100px;
+    bottom: 80px;
+    /* top: 50px; */
+    position: relative;
+    border-radius: 10%;
+}
+.footer{
+    width: 100%;   
+
+}
+}
+
+/*  */
+
+/* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////// */
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+
+    html{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .navigation {
+        background-color: rgb(9, 124, 9);
+        /* background-color: antiquewhite; */
+        text-align: center;
+        font-display: 50px;
+        width: 100%;
+        padding: 10px 5px 10px 5px;
+        
+    }
+    .btn{
+        padding: 8px 10px;
+        width: 120px;
+        height: 40px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(128, 233, 135);
+        font-weight: 700;
+        /* border-radius: 0; */
+        text-transform: uppercase;
+        margin: 25px;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+       }
+       .btn:hover{
+        background: transparent;
+        box-shadow: 0 0 40px 25px #e0e0d9;
+        color: #e0e0d9;
+       }
+    
+       .links >  li {
+        display: inline-block;
+        margin: 2px 5px 5px 2px;
+        width: 25%;
+    
+    }
+    .featured > p {
+        background-color: rgba(0, 0, 0, 0.669);
+        opacity: 75%;
+        z-index: 1;
+        width: 50%;
+        left: 100px;
+        bottom: 80px;
+        /* top: 50px; */
+        position: relative;
+        border-radius: 10%;
+    }
+    .footer{
+        width: 100%;   
+
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+/* 
+@media only screen and (max-width:360pt) {
+    
+}
+@media only screen and (max-width:375pt) {
+    
+}
+
+@media only screen and (max-width:1440pt) {
+    
+}
+@media only screen and (max-width:1024pt) {
+    
+}
+@media only screen and (max-width:768pt){}  */
