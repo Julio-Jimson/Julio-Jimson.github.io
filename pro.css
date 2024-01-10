@@ -6,8 +6,9 @@ body {
 p {
     color: green;
 }
+
 /* naviagation */
-.navigation{
+nav {
     background-color: rgb(9, 124, 9);
     /* background-color: antiquewhite; */
     text-align: center;
@@ -19,29 +20,89 @@ p {
 .btn{
     padding: 8px 20px;
     width: 200px;
-    height: 50px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(128, 233, 135);
+    /* height: 50px; */
+    color: rgb(0, 0, 0);
+    background-color: #80e987;
     font-weight: 700;
     /* border-radius: 0; */
     text-transform: uppercase;
     margin: 25px;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     text-decoration: none;
-   }
-   .btn:hover{
+}
+
+.btn:hover{
     background: transparent;
     box-shadow: 0 0 40px 25px #e0e0d9;
     color: #e0e0d9;
-   }
+}
 
-   .links >  li {
+.links >  li {
     display: inline-block;
     margin: 2px 5px 5px 2px;
     width: 25%;
 
 }
+
+
+/* dropdown menu */
+/* ////////////////////////////////// */
+
+  
+
+
+
+/* /////////////////////////////////// */
+/* dropdown menu */
+
+/*--- DROPDOWN ---*/
+#portfolio {
+    background-color: #80e987;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #portfolio:hover, #portfolio:focus {
+    background-color:rgb(9, 124, 9);
+    color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(9, 124, 9);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 4; 
+ }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;
+
+    }
+/* /////////////////////////////////// */
+/* dropdown menu */
+
+
 /* body */
 
 
