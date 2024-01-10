@@ -6,6 +6,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="pro.css">
+    <!-- <script src="bootstrap.bundle.min.js / bootstrap.bundle.js"></script>
+    <script src="requiresutil.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="pro.js" defer ></script>
 </head>
@@ -13,21 +15,26 @@
     <nav class="navigation">
         <ul class="links" >
             <li> 
-                <button class="btn"  href="#"> home
+                <button class="btn"  href="#"> home  &#127968;
+                    <a href="index.html"></a>
+                </button>
+            </li>
+            <li>
+                <div class="dropdown">
+                <button class="btn" id="portfolio" href="#" onclick="myFunction()" 
+                class="dropbtn">
+                   portfolio  &#128187;
 
+                  
                 </button>
+            </div>
             </li>
             <li>
                 <button class="btn" href="#">
-                   portfolio
-                </button>
-            </li>
-            <li>
-                <button class="btn" href="#">
-                    contact
+                    contact  &#128242;
                  </button>
             </li>
-        </ul>
+        </ul>    
     </nav>
 </header>
     <body>
@@ -35,7 +42,13 @@
             <h2>I'm Julio Villegas</h2>
             <h4>Full stack Web developer</h4>
         <br>
+        <!-- <style contenteditable style="display: block; white-space:pre;">
 
+            html {
+            
+            }
+            
+            </style> -->
         
 <!-- first section 1 -->
         <div class="container text-center">
@@ -45,7 +58,7 @@
                     <p>homemade image</p>
                 </div>
                 <div class="col" id="first-par">
-                description section
+                <!-- description section -->
                 </div>
             </div>
         </div>
@@ -55,52 +68,55 @@
             <div class="row" id="three_rows">
               <div class="col">
                 <p>
-                    <h5>Objectives</h5> 
+                    <h5>Objectives:</h5> 
+
                     <ol>
                       <li>IT Career driven. </li>
+                      <li>IBM Full-Stack JavaScript Developer Professional Certificate</li>
                       <li>Google IT support specialist </li>
                       <li>CCNA – cisco </li>
                       <li>IBM full stack software developer   </li>                                                                                  
  	                </ol>
                 </p>
-                1 of 3
+            
               </div>
               <div class="col">
                 <p>
-                    TECHNICAL SKILLS <br>
-                <h5>
-                   <li>Computer: JavaScript – CSS - HTML - C - Python - SCSS - </li>
+                    <h5> TECHNICAL SKILLS: <br></h5>
+                
+                   <li>Computer: JavaScript – CSS - HTML - C - Python - SCSS - NODE.js -ECMAScript 6+ - Ajax and Fetch - APIs </li>
                    <li>Cardiopulmonary Resuscitation (CPR) certified</li>
                    <li>Crisis Prevention Intervention certification (CPI)</li>
                    <li>Phlebotomy trained</li>
-                   <li>Languages: Fluent in English, conversational Spanish</li>
+                   <li>Languages: Fluent in English, Spanish</li>
 
-                </h5>
+                
                 </p>
-                2 of 3
+            
               </div>
               <div class="col" id="work_info">
-                <p>WORK EXPERIENCE	
+                <p>
+                    <h5>WORK EXPERIENCE: </h5>	
 
                     <br> 
                     <br>
                     <h5>RiseUpForAutism, Joliet, IL August 2023 – present </h5>  
-                    	RBT- Registered Behavioral Therapist 
+                    	<h6>RBT- Registered Behavioral Therapist</h6> 
                     Provide direct 1:1 ABA Therapy to children ages 2-14 years old in the center. 
                     Create a fun and encouraging learning environment. Manage challenging behaviors by 
                     implementing treatment plans across multiple domains; including communication, social behavior, 
-                    learner replacement behavior and behavior reduction. Collect and record data on their daily progress. 
+                    replacement behavior and behavior reduction. Collect and record data on their daily progress. 
                     <br>
                     <br>
-                    <h5>MacNeal Hospital, Berwyn IL April 2016 – 2022 February </h5>
-                            Mental Health Counselor
+                    <h5>MacNeal Hospital, Berwyn IL April 2016 – 2022 August </h5>
+                          <h6>Mental Health Counselor </h6>
                     Lead group therapy sessions, coordinate with the registered nurses, provide behavioral intervention
                     based on assessed needs for patients. Provide a safe and therapeutic environment assist in the admission, 
                     provision of patient care, discharge and transfer of patients and documents specified information.
                     <br>
                     <br>
                    <h5>University of Illinois at Chicago, Chicago, IL June 2011-December 2014</h5>
-                    Library Administration Aid
+                    Library Administration Specialist
                     General office tasks; answering phones, project assistance, maintenance and updating of directories, 
                     filing, stocking supplies, bookkeeping and simple accounting reconciliation of administrative duties.
                     <br>
@@ -113,7 +129,6 @@
                     emotional outbursts
                     
                 </p>
-                3 of 3
               </div>
             </div>
         </div>
@@ -121,7 +136,7 @@
         <div class="featured">
             <img src="paradigm.jpg" alt="">
             <p>featured work
-               <br>this will be talking about image and how syles and objectives i have done
+               <br>Placeholder text for now. I will add some description of some better image soon.
             </p>
         </div>
         <div class="icons">
