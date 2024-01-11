@@ -67,7 +67,6 @@ const start = function (k) {
       "How long of a word do you want to guess for? (give # between 5-8)"
     );
   } while (k <= 4 || k > 8 || k == regex);
-  alert("your entry is valid");
 
   wordsize = k;
   console.log(`Okay your word is ${k} long`);
