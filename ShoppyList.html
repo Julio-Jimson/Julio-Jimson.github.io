@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./GroceryList/grocery.js" defer></script>
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        text-align: left;
+        font-size: x-large; 
+       }
+       a{
+        color: white;
+        text-decoration: none;
+       }
+    body{
+        text-align: center;
+        background-color: rgb(65, 255, 1);
+    }
+    p{
+     font-size: small;
+    }
+    .i{
+        background-color: rgb(0, 0, 0);
+    }
+    #green{
+        color: green;
+    }
+    #yellow{
+        color: yellow;
+    }
+    #red{
+        color: red;
+    }
+    li{
+        color: gray;
+        background-color: rgb(0, 0, 0);
+    }
+    
+</style>
+<header  class="siteheader">
+</header>
+
+<body>
+    <header>Grocery list:</header>
+    <h5 style="font-weight: 300;">color code for priorty</h5>
+    <p>
+    <p class="i" id="red">RED: For urgently needed</p>
+    <p class="i" id="yellow">YELLOW: Will need soon</p>
+    <p class="i" id="green">GREEN: Try and get these item</p>
+    </p>
+
+<form action="" id="items">
+    <br> 
+    <input type="text" name="" id="type" autofocus placeholder="add items">
+    <input type="submit" id="sub">
+
+</form>
+<div id="color-pick">
+    <select name="" id="drop-down">
+
+        <option value="green">green</option>  
+        <option value="yellow">yellow</option>
+        <option value="red">red</option>
+        
+    </select>
+    <button id="add_color">add color</button>
+</div>
+<ul id="list"> 
+</ul>
+
+</body>
+</html>
