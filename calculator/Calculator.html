@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator/calculator.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Julio's website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color:bisque;  
+    }
+    table{
+        display: block;
+        position: relative;
+    
+    }
+    button{
+        text-align: center;
+        border-left-width: 0.5;
+        width: 64.25px;
+        height: 55px;
+        font-weight: 900;
+        font-size: xx-large;
+        border: 4px solid rgb(229, 68, 68);
+    }
+    button:hover{
+        background-color: aqua;
+    }
+</style>
+<body>
+  <header  class="siteheader">
+
+  </header>
+  <main class="maincontent">
+    <h1>Calculator try it out</h1>
+    <h2>It works except the equals button (need to fix)</h2>
+    <div class="container text-center">
+        <div class="row justify-content-md-center">
+         
+          <div class="col-md-auto">
+          
+    <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <form action="">
+                <div class="temp"></div>
+                <!-- <input type="file" capture="user"  name="" id=""> -->
+                <input type="number" name=""  id="" hidden>
+                <input type="number,step" min="0.0" max="10.0"  name="" disabled  id="compute" placeholder="number">
+                <!-- <input type="submit" id="submit"> -->
+            </form>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button class="btns" id="7" value="7">7</button></td>
+            <td><button class="btns" id="8" value="8">8</button></td>
+            <td><button class="btns" id="9" value="9">9</button></td>
+            <td><button class="math" id="equals" value="enter">=</button></td>
+          </tr>
+          <tr>
+            <td><button class="btns" id="4" value="4">4</button></td>
+            <td><button class="btns" id="5" value="5">5</button></td>
+            <td><button class="btns" id="6" value="6">6</button></td>
+            <td><button  class="btns" id="decimal" value=".">.</button></td>
+          </tr>
+          <tr>
+            <td><button class="btns" id="1" value="1">1</button></td>
+            <td><button class="btns" id="2" value="2">2</button></td>
+            <td><button class="btns" id="3" value="3">3</button></td>
+            <td><button class="btns" id="0" value="0">0</button></td>
+          </tr>
+          <tr>
+            <td><button class="math" id="addition" value="+">+</button></td>
+                    <td><button class="math" id="subtract" value="-">-</button></td>
+                    <td><button class="math" id="multiply" value="*">x</button></td>
+                    <td><button class="math" id="divide" value="/">÷</button></td>
+          </tr>
+        </tbody>
+      </table>
+            </div>
+        </div>
+    </div>
+  </main>
+</body>
+</html>
+
+
+<!-- 
+<table class="table">
+    <tbody> 
+ <tr>
+     <td><button class="btns" id="7" value="7">7</button></td>
+     <td><button class="btns" id="8" value="8">8</button></td>
+     <td><button class="btns" id="9" value="9">9</button></td>
+         <td class="enter" id="enter" value="enter">enter</td>
+
+ </tr>
+ <tr>
+     <td><button class="btns" id="4" value="4">4</button></td>
+     <td><button class="btns" id="5" value="5">5</button></td>
+     <td><button class="btns" id="6" value="6">6</button></td>
+          <td class="enter" id="enter" value="enter">enter</td>
+
+ </tr>
+ <tr>
+     <td><button class="btns" id="1" value="1">1</button></td>
+     <td><button class="btns" id="2" value="2">2</button></td>
+     <td><button class="btns" id="3" value="3">3</button></td>
+     <td><button class="btns" id="0" value="0">0</button></td>
+ </tr>
+ <tr>
+
+     <td><button class="math" id="addition" value="0x6B">+</button></td>
+     <td><button class="math" id="subtract" value="0x6D">-</button></td>
+     <td><button class="math" id="multiply" value="*">x</button></td>
+     <td><button class="math" id="divide" value="/">÷</button></td>
+     
+ </tr>
+</tbody>
+ </table>
+
+ -->
+
+ 
