@@ -16,6 +16,7 @@ document.querySelector("#first-par").append(intro);
 const port = `
                 <a href="Gaming.html">wordle</a>
                 <a href="ShoppyList.html">shopping app</a>
+                <a href="calculator.html">calculator</a>
                 <a href="#TBD">TBD</a>
 
             `;
