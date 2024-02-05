@@ -16,7 +16,7 @@ document.querySelector("#first-par").append(intro);
 const port = `
                 <a href="Gaming.html">wordle</a>
                 <a href="ShoppyList.html">shopping app</a>
-                <a href="calculator.html">calculator</a>
+                <a href="Calculator.html">Calculator</a>
                 <a href="#TBD">TBD</a>
 
             `;
@@ -28,8 +28,7 @@ unorder.setAttribute("class", "dropdown-content");
 unorder.innerHTML = port;
 document.querySelector("#portfolio").append(unorder);
 
-
-// 
+//
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
