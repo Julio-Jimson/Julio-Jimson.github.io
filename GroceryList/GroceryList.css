@@ -1,7 +1,11 @@
-nav{
+    nav{
     text-align: left;
     font-size: x-large; 
-}
+    list-style-type: none;
+    justify-content: right;
+    margin-left: 50px;
+    margin-right: 30px;
+    }
 a{
     color: rgb(70, 66, 66);
     text-decoration: none;
