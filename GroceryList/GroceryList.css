@@ -1,0 +1,58 @@
+nav{
+    text-align: left;
+    font-size: x-large; 
+}
+a{
+    color: rgb(70, 66, 66);
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    background-color: #D2D5DD;
+}
+p{
+ font-size: small;
+}
+.i{
+    background-color: #b7c2de;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: rgb(245, 245, 36);
+}
+#red{
+    color: red;
+}
+li::marker{
+    /* background-color: black; */
+    color: rgb(0, 39, 138)
+}
+li{
+    color: gray;
+    background-color: #D2D5DD;
+    padding: 5px;   
+    /* justify-content: space-between;     */
+}
+li > button {
+    justify-content: right;
+    margin-left: 50px;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+}
+li > input{
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    margin-right: 30px;
+    justify-content: space-between;   
+}
+input{
+    text-size-adjust: 2px;
+    resize: vertical;  
+}
+#assigned-color{
+    size: 2px;
+}
